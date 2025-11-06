@@ -1,0 +1,6 @@
+// difficulty: easy
+
+i just started learning cryptography and encrypted a message but forgot how i did it… can you help me out?
+i remember it starting with "flag"
+
+24 2e 23 25 39 3a 2d 30 1d 2f 76 31 36 71 30 2a 76 21 29 71 30 3f

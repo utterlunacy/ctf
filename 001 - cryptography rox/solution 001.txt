@@ -1,0 +1,5 @@
+use the following recipe in cyberchef
+
+From_Hex('Auto')
+XOR_Brute_Force(1,100,0,'Standard',false,true,false,'')
+
