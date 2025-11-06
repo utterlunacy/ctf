@@ -1,7 +1,11 @@
-# ctf
+# about
+i like making ctfs and publish them on here
 
-i try to create a ctf once a week and upload it here. each folder will contain the challenge, a number of text files containing hints, and a text file containing a quick guide on how to solve the challenge as well as the flag encoded in base64 to avoid unintentional reading
+# hints and solutions
+each folder contains hints and a solution. the hints are named in order based on how much they reveal. the solution also contains the flag encoded in base64.
 
-if a challenge is a zip file, a virustotal scan result will be placed in the readme file of that challenge
+# txt challenges
+if a challenge is a txt file, it will contain a short information text and the challenge data
 
-challenge source code (if existent) will be uploaded to a different repo
+# zip challenges
+if a challenge is a zip archive, an additional readme.txt will contain a short information text and a virustotal scan of the zip archive
