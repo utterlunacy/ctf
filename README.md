@@ -1,5 +1,5 @@
 # about
-i like making ctfs and publish them on here
+this repo is where i publish ctf challenges i made
 
 # hints and solutions
 each folder contains hints and a solution. the hints are named in order based on how much they reveal. the solution also contains the flag encoded in base64.
