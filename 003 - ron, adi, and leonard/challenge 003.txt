@@ -1,4 +1,4 @@
-// difficulty: medium
+// difficulty: easy
 
 ron, adi, and leonard invented a cryptosystem. adi sent me this message, saying it was encrypted with their system.
 they also said something about p being the 1230th and close to 10000 or something like that.
