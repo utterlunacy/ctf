@@ -8,6 +8,7 @@ q can be calculated using n and p:
 3933257695679891044325757314796161707029848663831/10007=393050634124102232869567034555427371542904833
 
 from this point onward, one may use an online tool like https://www.tausquared.net/pages/ctf/rsa.html
+or follow along with the excellent example on wikipedia: https://en.wikipedia.org/wiki/RSA_cryptosystem#Example
 filling in all the known variables will let us calculate d, which will then be used to decrypt the message
 
 first, the message has to be converted from hex to decimal
