@@ -1,0 +1,12 @@
+// difficulty: medium
+
+ron, adi, and leonard invented a cryptosystem. adi sent me this message, saying it was encrypted with their system.
+they also said something about p being the 1230th and close to 10000 or something like that.
+i can't seem to figure it out, why don't you have a go?
+
+c = 0x141D711173386AFCD8A716DEFF2A16CA58FAFD54E
+
+oh, i also found these somewhere:
+n = 3933257695679891044325757314796161707029848663831
+e = 11
+

@@ -1,0 +1,23 @@
+how to solve:
+
+ron, adi, and leonard is referencing the first names of the rsa designers
+
+n and e are given, p is described as being the 1230th and close to 10000
+looking up the 1230th prime number, one gets 10007
+q can be calculated using n and p:
+3933257695679891044325757314796161707029848663831/10007=393050634124102232869567034555427371542904833
+
+from this point onward, one may use an online tool like https://www.tausquared.net/pages/ctf/rsa.html
+filling in all the known variables will let us calculate d, which will then be used to decrypt the message
+
+first, the message has to be converted from hex to decimal
+0x141D711173386AFCD8A716DEFF2A16CA58FAFD54E = 1837382186455981811630421406489673224528493270350
+
+then, decryption can be done
+
+m = 34852863801139802312107114399462799401341
+
+converting back to hex:
+34852863801139802312107114399462799401341 = 0x666C61677B637234636B33645F7273617D
+
+this can then be thrown into cyberchef with a from hex operation

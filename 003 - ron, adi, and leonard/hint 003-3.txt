@@ -1,0 +1,1 @@
+once you've calculated q from n and p, you can calculate d
