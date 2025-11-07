@@ -1,0 +1,1 @@
+try and see if you can find a command that gives you the strings the image file contains

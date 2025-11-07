@@ -1,0 +1,6 @@
+// difficulty: easy
+
+my friend rick sent me this image, saying it contained some sort of message.
+i've looked at every single pixel of this thing but i swear, there is no message in there.
+can you help me find it?
+
