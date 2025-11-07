@@ -1,0 +1,5 @@
+how to solve:
+
+the encrypted string is just a hint/red herring
+
+the actual message is encoded with zero-width unicode characters at the end of the file. i believe it's easiest to write a short python script that will convert the characters to binary, which can then be tossed into cyberchef for further decoding from binary

@@ -1,0 +1,9 @@
+// difficulty: medium
+
+i intercepted this message and need help decrypting it. i'm not sure how this message was encoded but they must have used a very secure key.
+
+
+--BEGIN MESSAGE--
+hdhucfmpjcesrqiblk
+--END MESSAGE--
+​‌‌​​‌‌​​‌‌​‌‌​​​‌‌​​​​‌​‌‌​​‌‌‌​‌‌‌‌​‌‌​‌‌​‌‌‌​​‌‌​‌‌‌‌​‌‌​‌‌‌​​‌‌​​‌​‌​‌‌​‌‌​‌​‌‌‌​​​​​‌‌‌​‌​​​‌‌‌‌​​‌​‌​‌‌‌‌‌​‌‌‌​​‌‌​‌‌‌​​​​​‌‌​​​​‌​‌‌​​​‌‌​‌‌​​‌​‌​‌‌‌‌‌​‌
