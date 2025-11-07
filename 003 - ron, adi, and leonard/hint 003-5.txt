@@ -1,1 +1,1 @@
-the decrypted decimal integer can be converted to hex using rapidtables and then be calculated to text using cyberchef
+the decrypted decimal integer can be converted to hex using rapidtables and then be converted to text using cyberchef
