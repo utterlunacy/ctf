@@ -2,10 +2,13 @@
 each folder is for one challenge and one challenge only. a folder consists of the challenge, hints, and solution
 
 # hints and solutions
-hints are named in order based on how much they reveal. the solution contains instructions on how to solve, and the flag encoded in base64
+hints are named in order based on how much they reveal. the solution contains instructions on how to solve
+
+# checking flags
+to verify if you have found the right flag, open the verifier on https://utterlunacy.github.io/ctf and select a challenge and paste in a flag to verify
 
 # txt challenges
 if a challenge is a txt file (challenge.txt), it will start with the challenge difficulty, followed by a short information text, and then the challenge itself
 
-# zip challenges
-if a challenge is a zip archive, an additional challenge-info.txt will contain the challenge difficulty, a short information text, and a virustotal scan of the zip archive
+# other challenges
+if a challenge is a different file, an additional challenge-info.txt will contain the challenge difficulty, a short information text, and a virustotal scan if the file is a zip archive

@@ -1,6 +1,3 @@
-base64-encoded flag: ZmxhZ3t4b3JfbTRzdDNyaDRjazNyfQ==
-
-
 how to solve:
 use the following recipe in cyberchef
 
