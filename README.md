@@ -1,6 +1,3 @@
-# structure
-each folder is for one challenge and one challenge only. a folder consists of the challenge, hints, and solution
-
 # hints and solutions
 hints are named in order based on how much they reveal. the solution contains instructions on how to solve
 
