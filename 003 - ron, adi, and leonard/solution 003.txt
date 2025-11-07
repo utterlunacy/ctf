@@ -16,4 +16,4 @@ first, the message has to be converted from hex to decimal
 
 then, decryption can be done using m=c^d%n
 
-this can then be thrown into cyberchef with a from hex operation
+this can then be converted to hex and then thrown into cyberchef with a from hex operation
