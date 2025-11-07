@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<title>flag verifier</title>
+<style>
+body{font-family:monospace;text-align:center;margin-top:2em}
+input,select,button{font-family:inherit}
+</style>
+<body>
+<select id="chal"></select>
+<input id="flag" placeholder="flag">
+<button onclick="check()">verify</button>
+<div id="res"></div>
+<script>
+const challenges={
+  "001":"f8c2e18b4c2c5ee8d3904dfe16c7d356eaacc989d3d555ba1fe1a4b2abf6f112",
+  "002":"268e8742f72ad8c4bbcd904a004b0d4ef0ef90046b5dacaba90b72ca6f2b17ae"
+};
+
+const s=document.getElementById("chal");
+for(const k in challenges){
+  const o=document.createElement("option");
+  o.value=k;o.textContent=k;s.appendChild(o);
+}
+
+async function sha256(t){
+  const buf=new TextEncoder().encode(t);
+  const hashBuf=await crypto.subtle.digest("SHA-256",buf);
+  return Array.from(new Uint8Array(hashBuf)).map(b=>b.toString(16).padStart(2,"0")).join("");
+}
+
+async function check(){
+  const f=document.getElementById("flag").value.trim();
+  const c=document.getElementById("chal").value;
+  const h=await sha256(f);
+  const r=document.getElementById("res");
+  r.textContent=(h===challenges[c])?"correct flag":"wrong flag";
+}
+</script>
+</body>
+</html>
+
