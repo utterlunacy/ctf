@@ -1,0 +1,8 @@
+// difficulty: easy
+
+a friend of mine kept going on about how perfectly secure otp is but then managed to send me two messages that were encrypted with the same key.
+i know there's a way to crack that but it sounds like a huge drag so i don't feel like doing it. why don't you have a go?
+
+1405020c1a170658021e030b0f
+1c0c150e13141b020b18010604150b0a061c14
+

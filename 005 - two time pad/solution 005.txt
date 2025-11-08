@@ -1,0 +1,5 @@
+how to solve:
+
+since the key has been used twice and one can guess that one of the two messages is the flag, a known-plaintext attack with the flag format flag{ is possible.
+using a technique called cribdragging, one can find that the other ciphertext is a lyric from a moderately famous song by rick astley
+filling in the whole line returns the flag
