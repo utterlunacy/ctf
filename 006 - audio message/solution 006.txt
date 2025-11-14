@@ -1,6 +1,15 @@
 how to solve:
 
 - use an online morse decoder to get the key
-- put the file into audacity and look at the spectrum
+- use the key to get a clean version of the morse
+- subtract the clean morse audio from the challenge audio to clean it up
+- put the file into audacity and set it to spectrum with spectrum settings 
+  - scale: linear
+  - min freq: 400hz
+  - max freq: 8000hz
+  - gain: 40
+  - range 10
+  - scheme: grayscale
+- make a screenshot of the qr code
 - enhance the qr code until it can be scanned (e.g. using gimp)
-- using something like cyberchef, xor with the key
+- using something like cyberchef, xor with the key from the morse code
