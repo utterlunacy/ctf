@@ -1,0 +1,1 @@
+make sure the dimensions of the qr code are exactly square

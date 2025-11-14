@@ -1,0 +1,3 @@
+// difficulty: medium
+
+i intercepted this military audio message. can you find out what it says?

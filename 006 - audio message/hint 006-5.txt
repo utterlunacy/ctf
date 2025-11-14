@@ -1,0 +1,1 @@
+try to enhance the clarity of the qr code using gimp

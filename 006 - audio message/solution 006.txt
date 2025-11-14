@@ -1,0 +1,6 @@
+how to solve:
+
+- use an online morse decoder to get the key
+- put the file into audacity and look at the spectrum
+- enhance the qr code until it can be scanned (e.g. using gimp)
+- using something like cyberchef, xor with the key
