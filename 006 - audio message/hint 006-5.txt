@@ -1,1 +1,1 @@
-try to enhance the clarity of the qr code using gimp
+make sure the dimensions of the qr code are exactly square

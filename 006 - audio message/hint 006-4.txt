@@ -1,1 +1,1 @@
-make sure the dimensions of the qr code are exactly square
+try to create a clean version of the morse code and subtract it from the audio to clean it up
