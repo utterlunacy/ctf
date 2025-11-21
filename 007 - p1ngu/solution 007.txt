@@ -1,0 +1,9 @@
+how to solve:
+
+inspect the file with whatever you like (strings, hex editor, cat, etc.) and find the oddly coherent string at the very end
+
+use this in a tool like cyberchef with aes decryption as the key and iv, input should be raw, so should output, everything else can be left on default
+
+remove the string from the end so decryption will work
+
+render the image
